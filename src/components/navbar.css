@@ -1,0 +1,71 @@
+.scroll {
+	background-color: #212e3e !important;
+	transition: opacity .4s, transform .4s;
+	transition-timing-function: cubic-bezier(.6, -.28, .515, 1.285);
+	transform: translateZ(0);
+	box-shadow: 0 2.76726px 2.21381px rgba(0, 0, 0, .07), 0 6.6501px 5.32008px rgba(0, 0, 0, .04317), 0 12.5216px 10.0172px rgba(0, 0, 0, .0339075), 0 22.3363px 17.869px rgba(0, 0, 0, .0282784), 0 41.7776px 33.4221px rgba(0, 0, 0, .0235573), 0 100px 80px rgba(0, 0, 0, .0174624), 0 0 0 1px rgba(0, 0, 0, .05);
+}
+
+.navbar-expand-lg .navbar-nav .services-nav .dropdown-menu {
+    width: 100%;
+    max-width: 100%;
+	padding: 0;
+	z-index: 99999999;
+	top: 90%;
+}
+.navbar .navbar-nav .nav-link {
+	color: #fff;
+	text-transform: uppercase;
+	margin: 0 .5rem;
+	font-size: 15px;
+}
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link:focus {
+	color: #fff;
+}
+
+.navbar.scroll .navbar-nav .nav-link {
+	color: #fff;
+	text-transform: uppercase;
+	margin: 0 .5rem;
+}
+
+.nav-link.request-btn {
+	border: 1px solid #fff;
+}
+.navbar .navbar-toggler {
+	color: #fff;
+	border-color: #000 !important;
+}
+
+.schedule-call-modal {
+    color: #fff;
+    background: linear-gradient(
+0deg,#4e62ed,#4baffd);
+    border-radius: 10px;
+    padding: 0 15px;
+    line-height: 37px;
+    display: block;
+    border: 0;
+    font-size: 15px;
+    height: 39px;
+}
+a {
+    color: #0d6efd;
+    text-decoration: none !important;
+}
+.btn-white {
+	background-color: #00c853;
+	padding: 6px 20px;
+	border-radius: 100px;
+	color: #fff;
+	font-weight: 500;
+	transition: background-color .2s ease-in-out;
+	cursor: pointer;
+	border: none;
+	text-decoration: none;
+}
+
+h1{
+	color: forestgreen;
+	}
